@@ -1,0 +1,30 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;   /* Align logo to the left */
+  }
+
+  .logo-img{
+    width: 100%;
+  }
+
+.hero-section{
+  background-size: cover;
+  background-repeat: "no-repeat";
+  background-position: "center";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+  
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-family: Aparajita;
+  margin-top: 99px;
+  font-weight: bold;
+  color: darkolivegreen;
+}
