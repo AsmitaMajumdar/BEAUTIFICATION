@@ -6,9 +6,9 @@ import Hero from "./components/Hero";
 function App() {
   return (
     <>
-      <Header></Header>
-      <Hero></Hero>
-      <Footer></Footer>
+      <Header />
+      <Hero />
+      <Footer />
     </>
   );
 }

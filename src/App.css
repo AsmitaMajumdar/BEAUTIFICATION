@@ -5,26 +5,78 @@
   }
 
   .logo-img{
-    width: 100%;
+    width: 150px;
   }
 
 .hero-section{
   background-size: cover;
-  background-repeat: "no-repeat";
-  background-position: "center";
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
+  text-align: center;
+  padding: 30px;
 }
   
 .welcome{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 60px;
+  font-size: 80px;
   font-family: Aparajita;
-  margin-top: 99px;
+  margin-top: 130px;
   font-weight: bold;
   color: darkolivegreen;
+}
+
+.postContainer{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 20px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.posts{
+  width: 100%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+.postImage{
+  width: 390px;
+}
+.writings{
+  font-size: 30px;
+  margin-top: 50px;
+  font-family: serif;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+.ChooseProduct{
+  width: 100%;
+  font-size: 35px;
+  font-family: serif;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+.post p {
+  font-size: 20px;  
+  /* font-weight: bold;   */
+  padding: 10px 0;  
+}
+.footercontainer{
+  background-color: #D1B3C4;
+  padding: 20px;
+  text-align: center;
+
 }
